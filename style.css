@@ -1,0 +1,185 @@
+.budget-container{
+	display: flex;
+ 	justify-content: center;
+ 	background-image: url("budget.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+	height: 300px; /* You must set a specified height */
+  	background-position: center; /* Center the image */
+ 	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover;
+  	padding-top: 15px;
+ 	overflow-x: visible;
+  	overflow-y: hidden;
+}
+
+.span-expense{
+	float: right;
+	background-color: red;
+}
+
+#delete-btn{
+	color: black;
+}
+
+#wages{
+	background-color: #fff176;
+	width: 100%;
+	min-height: 211px;
+}
+
+#setDate{
+	font-weight: bold;
+}
+
+#demo_desc_inc{
+	padding: 5px;
+	line-height: 3em;
+	font-weight: bold;
+}
+
+#demo_val_inc{
+	background-color: transparent;
+	text-align: center;
+	padding: 5px;
+	color: white;
+	line-height: 3em;
+	font-weight: bold;
+}
+
+#demo_desc_exp{
+	padding: 5px;
+	line-height: 3em;
+	font-weight: bold;
+}
+
+#demo_val_exp{
+	
+	font-weight: bold;
+	text-align: center;
+	background-color: transparent;
+	color: white;
+	padding: 6px 8px 6px 8px;
+	line-height: 3em;
+}
+
+#span-expense{
+	background-color: red;
+}
+
+.date{
+	text-align: center;
+}
+
+.date h3{
+	font-weight: bold;
+}
+
+.total-budget{
+	text-align: center;
+}
+
+.income{
+	background-color: lightgreen;
+	margin: 0px 100px 0px 100px; 
+}
+
+.income p{
+	padding: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px 30px 0px 30px; 
+}
+
+.income span{
+	float: right;
+}
+
+.expense{
+	background-color: #dd0000;
+	margin: 10px 100px 0px 100px;
+}
+
+.expense p{
+	padding: 10px;
+	margin: 0px 30px 0px 30px;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+}
+
+.expense span{
+	float: right;
+}
+
+.add_content{
+	background-color: #dedede;
+	padding: 20px;
+	width: 100%;
+}
+
+.sort{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px;
+	border: 3px solid gray;
+	margin: 5px;
+}
+
+.val{
+	width: 100%;
+	border: 3px solid gray;
+	padding: 5px;
+	margin: 5px;
+}
+
+.description{
+	text-align: center;
+}
+
+.desc{
+	width: 100%;
+	margin: 5px;
+	border: 3px solid gray;
+	padding: 5px;
+}
+
+.button-tick button{
+	margin-top: 4px;
+	border: 2px solid black;
+	font-size: 15px;
+}
+
+.income-value{
+	float: right;
+}
+
+.income-description{
+	font-size: 16px;
+}
+
+.expense-value{
+	float: right;
+}
+
+.expense-description{
+	font-size: 16px;
+}
+
+.wrapper{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#wrap{
+	display:flex;
+	width: 100%;
+}
+
+#del-btn{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+

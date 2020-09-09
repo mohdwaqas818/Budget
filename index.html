@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
+        <link type="text/css" rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        
+        <title>Budget</title>
+    </head>
+
+    <body>
+
+        <div class="budget-container">
+            <div class="col-md-12">
+                <div class="date">
+                    <h3>Available Budget on</h3>
+                    <span id="setDate">%Month%</span>
+                </div>
+                <div class="total-budget">
+                    <h1 id="available-budget">-0.00</h1>
+                </div>
+                <div class="income">
+                    <p>Income: <span id="income-amount">0.00</span></p>
+                </div>
+                <div class="expense">
+                    <p>Expense: <span id="expense-amount">0.00</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="add_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-1">
+                        <div class="type">
+                            <select name="select" id="" class="sort">
+                            <option id="plus-icon" value="+">+</option>
+                            <option id="minus-icon" value="-">-</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="value-textbox">
+                            <input type="textbox" name="" class="val" placeholder="Add Description" id="add_desc">
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="description">
+                            <input type="textbox" name="" class="desc" placeholder="Value" id="add_val">
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="button-tick">
+                            <button type="button" class="btn btn-light" id="btn-light"><ion-icon name="add-circle-outline"></ion-icon></button>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="wages">
+            <div class="row"> 
+                <div class="col-md-2"></div>
+                <div class="col-md-5">
+                    <h3>Income</h3>
+                    <div class="income-side" id="wrap">
+                        <div class="col-md-3">
+                            <p id="demo_desc_inc"></p>
+                        </div>
+                        <div class="col-md-3">
+                            <p id="demo_val_inc"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h3>Expense</h3>
+                    <div class="expense-side" id="wrap">
+                        <div class="col-md-3">
+                            <p id="demo_desc_exp"></p>
+                        </div>
+                        <div class="col-md-3" id="exp_add">
+                            <p id="demo_val_exp" class="val_exp_rem"><span id="span-expense"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="wrapper">
+                            <button type="reset" id="del-btn" class="btn btn-danger">Reset Budget</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+        <script src="script.js"></script>
+    </body>
+</html>
